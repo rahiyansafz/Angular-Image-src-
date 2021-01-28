@@ -1,0 +1,14 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+<button type="button" (click)="toggle()">change url</button>
+<button type="button" (click)="empty()">empty url</button>
+
+<img [src]="url" 
+  (load)="loaded($event)"
+  *ngIf="toLoad">
+
+<pre>url: {{url}}</pre>
+<pre>timeStamp: {{timeStamp}}</pre>

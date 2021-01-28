@@ -1,0 +1,9 @@
+p {
+  font-family: Lato;
+}
+
+pre, img {
+  width: 100%;
+  word-wrap: break-word;
+  border: 1px solid gray;
+}
